@@ -7,13 +7,259 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" />
     <script src="./app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e1d40d7d6f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Admin Dashboard</title>
   </head>
   <body>
     <div class="grid-container">
-      <header class="header">Header</header>
-      <aside class="sidebar">Sidebar</aside>
-      <main class="main-content">Main Content</main>
+      <header class="header">
+        <div class="searchbar">
+          <form action="" method="post">
+            <label for="search"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></label>
+            <input type="text" id="search" />
+          </form>
+          <div class="search-right">
+            <i class="fa-regular fa-bell"></i>
+            <img
+              class="profile-icon"
+              src="./images/Hypnotoad.ico"
+              alt="user icon"
+            />
+            <p>Hypnotoad</p>
+          </div>
+        </div>
+
+        <div class="searchbar-bottom">
+          <div class="header-bottom-left">
+            <img
+              class="profile-icon-lg"
+              src="./images/Hypnotoad.ico"
+              alt="user icon"
+            />
+            <div class="greeting">
+              <p>Hi there,</p>
+              <p>Hypnotoad (@gethyp)</p>
+            </div>
+          </div>
+          <div class="header-bottom-right">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </header>
+      <aside class="sidebar">
+        <div class="title">
+          <i class="fa-solid fa-grip"></i>
+          Dashboard
+        </div>
+        <ul class="main-links">
+          <li class="">
+            <i class="fa-solid fa-house"></i>
+            Home
+          </li>
+          <li class="">
+            <i class="fa-solid fa-address-card"></i>
+            Profile
+          </li>
+          <li class="">
+            <i class="fa-regular fa-message"></i>
+            Messages
+          </li>
+          <li class="">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            History
+          </li>
+          <li class="">
+            <i class="fa-regular fa-note-sticky"></i>
+            Tasks
+          </li>
+          <li class="">
+            <i class="fa-solid fa-people-group"></i>
+            Communities
+          </li>
+        </ul>
+        <ul class="extra-links">
+          <li class="">
+            <i class="fa-solid fa-gear"></i>
+            Settings
+          </li>
+          <li class="">
+            <i class="fa-regular fa-circle-question"></i>
+            Support
+          </li>
+          <li class="">
+            <i class="fa-solid fa-unlock-keyhole"></i>
+            Privacy
+          </li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <div class="main-left">
+          <h2>Your Projects</h2>
+          <div class="card">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+              aspernatur tenetur, quis optio veritatis dolor?
+            </p>
+            <div class="card-links">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Less Cool Project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Provident accusamus adipisci autem eum magni ut cumque nam ullam
+              ipsum tempora?
+            </p>
+            <div class="card-links">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Impossible App</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+              esse aliquam a repellat?
+            </p>
+            <div class="card-links">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Easy Peasy App</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              harum commodi, quaerat autem eius aliquam dolorem hic eaque.
+            </p>
+            <div class="card-links">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Ad Blocker</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim cum
+              sit ipsum non ab quam doloremque.
+            </p>
+            <div class="card-links">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Money Maker</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+              aliquam fuga itaque dolorem voluptas natus doloremque, ea minus
+              unde dolores dolor!
+            </p>
+            <div class="card-links">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+        </div>
+        <div class="main-right">
+          <h2>Announcements</h2>
+          <div class="announcements">
+            <div>
+              <h3>Site Maintenance</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                corrupti temporibus accusamus necessitatibus error delectus
+                eaque vel nam obcaecati repellat aut consequatur dicta maiores
+                pariatur sunt nobis cupiditate, ea a!
+              </p>
+            </div>
+            <div>
+              <h3>Community Share Day</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                placeat consectetur, obcaecati voluptates accusantium temporibus
+                asperiores magnam totam fugiat eum atque, illum doloremque
+                nesciunt est!
+              </p>
+            </div>
+            <div>
+              <h3>Updated Privacy Policy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                impedit corrupti omnis consectetur debitis inventore, qui quis
+                eos quam aspernatur aliquam quasi placeat quod suscipit
+                accusantium sed esse minus assumenda magnam voluptate repellat
+                sint ipsam quia? Cum alias sint dignissimos repellendus ullam,
+                doloribus, quidem perferendis ratione eveniet laudantium unde
+                magnam!
+              </p>
+            </div>
+          </div>
+          <h2>Trending</h2>
+          <div class="trending">
+            <div class="">
+              <img
+                class="profile-icon"
+                src="./images/Hermes.ico"
+                alt="user icon"
+              />
+              <div class="greeting">
+                <p>(@rastaman)</p>
+                <p>Looking For Rope</p>
+              </div>
+            </div>
+            <div class="">
+              <img
+                class="profile-icon"
+                src="./images/Zoidberg.ico"
+                alt="user icon"
+              />
+              <div class="greeting">
+                <p>(@whynotz)</p>
+                <p>Why Not Zoidberg</p>
+              </div>
+            </div>
+            <div class="">
+              <img
+                class="profile-icon"
+                src="./images/Fry.ico"
+                alt="user icon"
+              />
+              <div class="greeting">
+                <p>(@leelalover)</p>
+                <p>Like Fry! Like Fry!</p>
+              </div>
+            </div>
+            <div class="">
+              <img
+                class="profile-icon"
+                src="./images/Bender.ico"
+                alt="user icon"
+              />
+              <div class="greeting">
+                <p>(@shutupdaby)</p>
+                <p>Forget The Blackjack</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
